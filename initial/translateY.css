@@ -1,0 +1,5 @@
+selector:hover{transform: translateY(-8px);
+transition-duration: .3s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+}
