@@ -14,6 +14,10 @@ body {
 	background: url(img-1.jpg);
 	animation: change-bg 10s linear infinite;
 }
+.slider:hover {
+	cursor: pointer;
+	animation-play-state:paused;
+}
 
 @keyframes change-bg {
 	0% { background: url(img-1.jpg); }
